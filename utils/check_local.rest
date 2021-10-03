@@ -1,0 +1,19 @@
+### Endpoint to get list of all scheduled emails.
+GET http://localhost:8000/email/schedule
+
+
+
+### Endpoint to create mail schedule.
+POST http://localhost:8000/email/schedule
+
+
+
+### Endpoint to update mail schedule.
+PATCH http://localhost:8000/email/schedule/_id
+// Example PATCH http://localhost:8000/email/schedule/615952cec4a865f56847566b
+
+
+
+### Endpoint to delete mail schedule.
+DELETE http://localhost:8000/email/schedule/_id
+// Example DELETE http://localhost:8000/email/schedule/615952cec4a865f56847566b
