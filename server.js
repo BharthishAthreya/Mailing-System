@@ -15,7 +15,9 @@ mongoose
 
 // Route
 app.use("/email", users);
-setInterval(sendMail, 60000);
+
+// Check mail schdeule for every 30 minutes
+setInterval(sendMail, 1800000);
 
 const port = PORT;
 
