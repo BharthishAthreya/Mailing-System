@@ -31,7 +31,7 @@ router.get("/schedule", async (req, res) => {
   try {
     if (req) {
       get_all_email = await users.find();
-      res.status(201).json(get_all_email);
+      res.status(200).json(get_all_email);
     }
   } catch (err) {
     console.log(err);
